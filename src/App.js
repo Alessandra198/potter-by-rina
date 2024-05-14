@@ -4,8 +4,10 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <h1>Harry Potter Library</h1>
-      <Search />
+      <div className="container">
+        <h1>Harry Potter Library</h1>
+        <Search />
+      </div>
     </div>
   );
 }
